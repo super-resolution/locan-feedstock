@@ -19,9 +19,9 @@ build:
 requirements:
   host:
     - python
-    - setuptools >=45
+    - setuptools >=64
     - wheel
-    - setuptools-scm >=6.2
+    - setuptools-scm >=8
     - pip
   run:
     - python
@@ -36,7 +36,7 @@ requirements:
     - networkx
     - scikit-learn
     - scikit-image
-    - matplotlib-base !=3.8.0
+    - matplotlib-base
     - scipy
     - pandas
     - numpy >1.20.0
@@ -45,6 +45,7 @@ requirements:
     - tomli >=1.1.0  # [py<311]
     - qtpy !=2.3.0
     - typing-extensions
+    - lazy_loader >=0.3
 
 test:
   imports:
